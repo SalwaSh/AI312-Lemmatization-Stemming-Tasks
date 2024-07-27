@@ -62,7 +62,7 @@ by coding  only the following rules of Porter Stemming
 
 ## How to Run ⚙️
 
-1. Download the SentimentAnalysis.py file.
+1. Download the stemming.py and lemmatization.py files.
 ```
  git clone https://github.com/SalwaSh/AI312-Lemmatization-Stemming-Tasks.git
 ```
