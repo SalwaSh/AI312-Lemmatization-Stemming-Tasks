@@ -16,8 +16,30 @@ also want to return "repurposing", "repurposes", and "repurposed" but probably n
  ○ stemming (which “chops off ” inflectional affixes to yield a “stem”) or 
 ○ lemmatization (which returns the “dictionary” form i.e. “lemma” of a word)
 
-for example 
+<table>
+  <thead>
+    <tr>
+      <th>Stemming</th>
+      <th>Lemmatization</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Can reduce words to a stem that is not an existing word</td>
+      <td>Reduces inflected words to their lemma, which is always an exisiting word</td>
+    </tr>
+     <tr>
+      <td>Simpler and faster</td>
+      <td>More accurate but slower</td>
+     </tr>
+     <tr>
+      <td>achieving -> achiev</td>
+      <td>achieving -> achieve</td>
+    </tr>
+  </tbody>
+</table>
 
+Task
 Lemmatization:
 Task-1: transform each word in the file “wiki_mountain_def.txt” into its Lemma form using “built-in lemma_ function of SpaCy”.
 Task-2: how many total words are changed due to this lemmatization process?
