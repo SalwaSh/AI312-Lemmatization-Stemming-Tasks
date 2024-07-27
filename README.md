@@ -6,9 +6,7 @@ Morphology studies the internal structure of words, how words are built up from 
 - 2 morphemes, ‘dog’ and ‘s’.
 - ‘s’ is a plural marker of nouns.
 
-For many NLP tasks, it is desirable to remove inflectional morphology (which does not change the meaning or part of speech of words) but leave derivational morphology behind. For example, in information retrieval if you search for "repurpose" you probable also want to return "repurposing", "repurposes", and "repurposed" but probably not purpose.
-
-To do this, data may be normalized using:
+For many NLP tasks, it is desirable to remove inflectional morphology (which does not change the meaning or part of speech of words) but leave derivational morphology behind. For example, in information retrieval if you search for "repurpose" you probable also want to return "repurposing", "repurposes", and "repurposed" but probably not purpose. To do this, data may be normalized using:
 - **stemming** (which “chops off ” inflectional affixes to yield a “stem”) or
 - **lemmatization** (which returns the “dictionary” form i.e. “lemma” of a word)
 
