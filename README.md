@@ -1,20 +1,20 @@
 
 ## Overview 
-Computational Morphology
-What is Morphology?
+
+**What is Morphology?**
 Morphology studies the internal structure of words, how words are built up from smaller meaningful units called “morpheme”.
+- such as  "dogs":
+  - 2 morphemes, ‘dog’ and ‘s’.
+  - ‘s’ is a plural marker of nouns.
 
-Morphemes is the  smallest (meaningful / grammatical) parts of words.
-such as  dogs
- 2 morphemes, ‘dog’ and ‘s’
- ● ‘s’ is a plural marker of nouns
-
- For many NLP tasks, it is desirable to remove inflectional morphology (which does not change the meaning or part of speech of words) but leave derivational morphology behind.
- ● For example, in information retrieval if you search for "repurpose" you probable 
+For many NLP tasks, it is desirable to remove inflectional morphology (which does not change the meaning or part of speech of words) but leave derivational morphology behind.
+ 
+For example, in information retrieval if you search for "repurpose" you probable 
 also want to return "repurposing", "repurposes", and "repurposed" but probably not purpose.
- ● To do this, data may be normalized using:
- ○ stemming (which “chops off ” inflectional affixes to yield a “stem”) or 
-○ lemmatization (which returns the “dictionary” form i.e. “lemma” of a word)
+
+To do this, data may be normalized using:
+- **stemming** (which “chops off ” inflectional affixes to yield a “stem”) or
+- **lemmatization** (which returns the “dictionary” form i.e. “lemma” of a word)
 
 <table>
   <thead>
@@ -39,13 +39,14 @@ also want to return "repurposing", "repurposes", and "repurposed" but probably n
   </tbody>
 </table>
 
-Task
-Lemmatization:
-Task-1: transform each word in the file “wiki_mountain_def.txt” into its Lemma form using “built-in lemma_ function of SpaCy”.
-Task-2: how many total words are changed due to this lemmatization process?
+## Task
+
+### Lemmatization:
+- Task-1: transform each word in the file “wiki_mountain_def.txt” into its Lemma form using “built-in lemma_ function of SpaCy”.
+- Task-2: how many total words are changed due to this lemmatization process?
  
-Stemming:
-Task-1: transform each word in the file “wiki_mountain_def.txt” into its Stem form 
+### Stemming:
+- Task-1: transform each word in the file “wiki_mountain_def.txt” into its Stem form 
 by coding  only the following rules of Porter Stemming
 
 SSES -> SS   caresses -> caress
@@ -54,4 +55,11 @@ ties -> ti   SS -> SS
 caress ->    Caress S -> 
 cats -> cat
 
-Task-2: how many total words are changed due to this stemming process?
+- Task-2: how many total words are changed due to this stemming process?
+
+## Outputs
+
+## How to Run ⚙️
+
+## Contributor ✍️
+- Salwa Shamma
